@@ -6,17 +6,17 @@ export default defineConfig({
   integrations: [
     starlight({
       title: "三绝简",
-      defaultLocale: "root",
-      locales: {
-        root: {
-          label: "简体中文",
-          lang: "zh-CN",
-        },
-        // en: {
-        //   label: "English",
-        //   lang: "en",
-        // },
-      },
+      defaultLocale: "zh-CN",
+      // locales: {
+      //   root: {
+      //     label: "简体中文",
+      //     lang: "zh-CN",
+      //   },
+      // en: {
+      //   label: "English",
+      //   lang: "en",
+      // },
+      // },
       social: {},
       sidebar: [
         {
