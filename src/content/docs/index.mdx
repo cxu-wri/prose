@@ -12,3 +12,22 @@ hero:
       icon: right-arrow
       variant: primary
 ---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Editor notes
+
+<CardGrid stagger>
+	<Card title="ref" icon="pencil">
+		[starlight doc](https://starlight.astro.build/zh-cn/reference/frontmatter/)
+	</Card>
+	<Card title="compose" icon="add-document">
+		[code sandbox](https://codesandbox.io/p/github/cxu-wri/prose/master)
+	</Card>
+	<Card title="Configs" icon="setting">
+		`astro.config.mjs` [example](https://github.com/withastro/starlight/blob/main/examples/basics/astro.config.mjs)
+	</Card>
+	<Card title="Read the docs" icon="open-book">
+		Learn more in [the Starlight Docs](https://starlight.astro.build/).
+	</Card>
+</CardGrid>
